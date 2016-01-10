@@ -94,11 +94,15 @@ public class WorldHelper {
 
         for (BaseVehicle vehicle : vehicles) {
             vehicle.draw(pane);
-            new Thread(vehicle).start();
+            Thread thread = new Thread(vehicle);
+            thread.setDaemon(true);
+            thread.start();
         }
 
         for (Human human : humans) {
-            new Thread(human).start();
+            Thread thread = new Thread(human);
+            thread.setDaemon(true);
+            thread.start();
         }
 
         clearBoxes();
@@ -192,16 +196,16 @@ public class WorldHelper {
      * @param pane
      */
     private static void onlyAtBeggining(Pane pane) {
-        harborImage = new ImageView(new Image("file:res/images/harbor.png"));
-        civilAirportImage = new ImageView(new Image("file:res/images/civilAirport.png"));
-        militaryAirportImage = new ImageView(new Image("file:res/images/militaryAirport.png"));
-        planeImage = new ImageView(new Image("file:res/images/plane.png"));
-        crossingImage = new ImageView(new Image("file:res/images/crossing.png"));
-        boatImage = new ImageView(new Image("file:res/images/boat.png"));
-        boatImage = new ImageView(new Image("file:res/images/boat.png"));
-        boatImage = new ImageView(new Image("file:res/images/boat.png"));
-        carrierImage = new ImageView(new Image("file:res/images/carrier.png"));
-        militaryPlaneImage = new ImageView(new Image("file:res/images/militaryPlane.png"));
+        harborImage = new ImageView(new Image("/harbor.png"));
+        civilAirportImage = new ImageView(new Image("/civilAirport.png"));
+        militaryAirportImage = new ImageView(new Image("/militaryAirport.png"));
+        planeImage = new ImageView(new Image("/plane.png"));
+        crossingImage = new ImageView(new Image("/crossing.png"));
+        boatImage = new ImageView(new Image("/boat.png"));
+        boatImage = new ImageView(new Image("/boat.png"));
+        boatImage = new ImageView(new Image("/boat.png"));
+        carrierImage = new ImageView(new Image("/carrier.png"));
+        militaryPlaneImage = new ImageView(new Image("/militaryPlane.png"));
 
         buildings.add(new CivilAirport(90, 80, "Poznan"));
         buildings.add(new CivilAirport(140, 265, "Wiry"));
@@ -534,7 +538,9 @@ public class WorldHelper {
         Button button = new Button("stwórz pojazd");
         button.setOnAction(event -> {
             BaseVehicle vehicle = ((MakeNewVehicle) objectToDisplay).make(pane);
-            new Thread(vehicle).start();
+            Thread thread = new Thread(vehicle);
+            thread.setDaemon(true);
+            thread.start();
             vehicles.add(vehicle);
             //createPeople();
         });
@@ -549,7 +555,9 @@ public class WorldHelper {
         Button button = new Button("stwórz lotniskowiec");
         button.setOnAction(event -> {
             BaseVehicle vehicle = ((MakeCarrier) objectToDisplay).makeNewCarrier(pane);
-            new Thread(vehicle).start();
+            Thread thread = new Thread(vehicle);
+            thread.setDaemon(true);
+            thread.start();
             vehicles.add(vehicle);
         });
         return button;
@@ -640,7 +648,9 @@ public class WorldHelper {
         int howMany = 1;//new Random().nextInt(11) + 5;
         for (int i = 0; i < howMany; i++) {
             Human human = new Human(getRandRouteForHuman());
-            new Thread(human).start();
+            Thread thread = new Thread(human);
+            thread.setDaemon(true);
+            thread.start();
             humans.add(human);
         }
     }

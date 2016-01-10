@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="xXTXXopXXXGunawdawxxxGameheheXD:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="gr">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/xXTXXopXXXGunawdawxxxGameheheXD_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/boat.png" afterPath="$PROJECT_DIR$/res/boat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/carrier.png" afterPath="$PROJECT_DIR$/res/carrier.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/civilAirport.png" afterPath="$PROJECT_DIR$/res/civilAirport.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/crossing.png" afterPath="$PROJECT_DIR$/res/crossing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/harbor.png" afterPath="$PROJECT_DIR$/res/harbor.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/militaryAirport.png" afterPath="$PROJECT_DIR$/res/militaryAirport.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/militaryPlane.png" afterPath="$PROJECT_DIR$/res/militaryPlane.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/plane.png" afterPath="$PROJECT_DIR$/res/plane.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces/Display.java" afterPath="$PROJECT_DIR$/src/interfaces/Display.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/Human.java" afterPath="$PROJECT_DIR$/src/models/Human.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TopGun.iml" afterPath="$PROJECT_DIR$/TopGun.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/WorldHelper.java" afterPath="$PROJECT_DIR$/src/models/WorldHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/buildings/Building.java" afterPath="$PROJECT_DIR$/src/models/buildings/Building.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/buildings/CivilAirport.java" afterPath="$PROJECT_DIR$/src/models/buildings/CivilAirport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/buildings/Harbour.java" afterPath="$PROJECT_DIR$/src/models/buildings/Harbour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/vehicles/BaseVehicle.java" afterPath="$PROJECT_DIR$/src/models/vehicles/BaseVehicle.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,44 +88,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseVehicle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/vehicles/BaseVehicle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/Human.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-              <folding>
-                <element signature="e#5881#5882#0" expanded="true" />
-                <element signature="e#5933#5934#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Passengers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/Passengers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldHelper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WorldHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/models/WorldHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="483" column="24" selection-start-line="483" selection-start-column="24" selection-end-line="483" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.71058476">
+              <caret line="513" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,56 +110,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PassengerPlane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/vehicles/PassengerPlane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-              <folding>
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="boat.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/boat.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PassengerModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/PassengerModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="plane.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/plane.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Harbour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/buildings/Harbour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-              <folding>
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1470#1471#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="crossing.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/crossing.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Building.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/models/buildings/Building.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20725389">
-              <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
-              <folding>
-                <element signature="e#1682#1683#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#4179#4180#0" expanded="true" />
-                <element signature="e#4208#4209#0" expanded="true" />
-                <element signature="e#6148#6149#0" expanded="true" />
-                <element signature="e#6199#6200#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="civilAirport.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/civilAirport.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="militaryPlane.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/militaryPlane.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carrier.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/carrier.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="harbor.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/harbor.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="militaryAirport.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/militaryAirport.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -248,10 +238,10 @@
         <option value="$PROJECT_DIR$/src/models/buildings/CivilAirport.java" />
         <option value="$PROJECT_DIR$/src/models/buildings/Harbour.java" />
         <option value="$PROJECT_DIR$/src/models/vehicles/PassengerPlane.java" />
-        <option value="$PROJECT_DIR$/src/models/WorldHelper.java" />
         <option value="$PROJECT_DIR$/src/models/Human.java" />
         <option value="$PROJECT_DIR$/src/models/PassengerModule.java" />
         <option value="$PROJECT_DIR$/src/models/buildings/Building.java" />
+        <option value="$PROJECT_DIR$/src/models/WorldHelper.java" />
       </list>
     </option>
   </component>
@@ -359,32 +349,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -394,29 +383,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -427,55 +398,26 @@
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vehicles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
+              <option name="myItemId" value="kaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buildings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samolocikiH3h3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,20 +432,24 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="worl&#9;FILE&#9;file://C:/Users/Maciej/IdeaProjects/samolocikiH3h3/src/models/WorldHelper.java&#10;mili&#9;FILE&#9;file://C:/Users/Maciej/IdeaProjects/samolocik/src/models/vehicles/MilitaryPlane.java&#10;world&#9;FILE&#9;file://C:/Users/Maciej/IdeaProjects/samolocik/src/models/WorldHelper.java&#10;wor&#9;FILE&#9;file:///home/Maciej/IdeaProjects/samolocik/src/models/WorldHelper.java&#10;bas&#9;FILE&#9;file:///home/Maciej/IdeaProjects/samolocik/src/models/vehicles/BaseVehicle.java&#10;wo&#9;FILE&#9;file:///home/Maciej/IdeaProjects/samolocik/src/models/WorldHelper.java&#10;Ba&#9;FILE&#9;file:///home/Maciej/IdeaProjects/samolocik/src/models/BaseVehicle.java&#10;bs&#9;PSI&#9;JAVA://com.sun.swing.internal.plaf.basic.resources.basic_sv&#10;hu&#9;FILE&#9;file:///home/Maciej/IdeaProjects/samolocik/src/models/Human.java&#10;human&#9;FILE&#9;file:///home/Maciej/IdeaProjects/samolocik/src/models/Human.java&#10;gps&#9;FILE&#9;file:///home/Maciej/IdeaProjects/samolocik/src/models/Gps.java&#10;`&#9;null&#9;null" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20229885" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maciej\IdeaProjects\kaman\res" />
+      <recent name="C:\Users\Maciej\IdeaProjects\TopGun\res\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/images" />
       <recent name="C:\Users\Maciej\IdeaProjects\TopGun\res\images" />
       <recent name="C:\Users\Maciej\IdeaProjects\TopGun\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Maciej\IdeaProjects\TopGun\res\images" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -1007,6 +953,7 @@
       <workItem from="1452454291984" duration="300000" />
       <workItem from="1452455093762" duration="13000" />
       <workItem from="1452455167357" duration="5538000" />
+      <workItem from="1452463522291" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="z Fedorki &lt;3">
       <created>1450566107233</created>
@@ -1192,7 +1139,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238876000" />
+    <option name="totallyTimeSpent" value="239771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1410,38 +1357,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/models/buildings/WaterCrossing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#206#207#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Draw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/buildings/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/buildings/Crossing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/buildings/Building.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1485,11 +1400,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/images/harbor.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="uml://JAVA/models">
@@ -1611,16 +1521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/images/militaryAirport.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/images/crossing.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="uml://JAVA/models.vehicles">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1700,11 +1600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/images/civilAirport.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1717,7 +1612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1735,7 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.92727274">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1888,10 +1781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#137#138#0" expanded="false" />
-            <element signature="e#160#161#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1907,7 +1796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1938,7 +1826,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="e#1243#1244#0" expanded="false" />
+            <element signature="e#1276#1277#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="false" />
+            <element signature="e#1358#1359#0" expanded="false" />
+            <element signature="e#1412#1413#0" expanded="false" />
+            <element signature="e#5154#5155#0" expanded="false" />
+            <element signature="e#5188#5189#0" expanded="false" />
+            <element signature="e#5228#5229#0" expanded="false" />
+            <element signature="e#5260#5261#0" expanded="false" />
+            <element signature="e#5292#5293#0" expanded="false" />
+            <element signature="e#5320#5321#0" expanded="false" />
+            <element signature="e#5380#5381#0" expanded="false" />
+            <element signature="e#5414#5415#0" expanded="false" />
+            <element signature="e#5473#5474#0" expanded="false" />
+            <element signature="e#5512#5513#0" expanded="false" />
+            <element signature="e#5872#5873#0" expanded="false" />
+            <element signature="e#5909#5910#0" expanded="false" />
+            <element signature="e#8837#8838#0" expanded="false" />
+            <element signature="e#8876#8877#0" expanded="false" />
+            <element signature="e#9505#9506#0" expanded="false" />
+            <element signature="e#9575#9576#0" expanded="false" />
+            <element signature="e#9799#9800#0" expanded="false" />
+            <element signature="e#9829#9830#0" expanded="false" />
+            <element signature="e#10287#10288#0" expanded="false" />
+            <element signature="e#10317#10318#0" expanded="false" />
+            <element signature="e#10404#10405#0" expanded="false" />
+            <element signature="e#10456#10457#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1957,7 +1875,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1966,19 +1886,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding>
-            <element signature="e#5881#5882#0" expanded="true" />
-            <element signature="e#5933#5934#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#1607#1608#0" expanded="false" />
+            <element signature="e#1641#1642#0" expanded="false" />
+            <element signature="e#1690#1691#0" expanded="false" />
+            <element signature="e#1714#1715#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1987,16 +1901,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/WorldHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="483" column="24" selection-start-line="483" selection-start-column="24" selection-end-line="483" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#393#394#0" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2006,23 +1916,85 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#1009#1010#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1115#1116#0" expanded="false" />
+            <element signature="e#1254#1255#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/buildings/Building.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20725389">
+        <state vertical-scroll-proportion="0.0">
           <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/boat.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/plane.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/crossing.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/civilAirport.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/militaryPlane.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/carrier.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/harbor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/militaryAirport.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/WorldHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71058476">
+          <caret line="513" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
           <folding>
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#4179#4180#0" expanded="true" />
-            <element signature="e#4208#4209#0" expanded="true" />
-            <element signature="e#6148#6149#0" expanded="true" />
-            <element signature="e#6199#6200#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2030,9 +2002,82 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>xXTXXopXXXGunawdawxxxGameheheXD:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20229885" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TopGun</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
