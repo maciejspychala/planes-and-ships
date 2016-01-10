@@ -9,16 +9,7 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="gr">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/xXTXXopXXXGunawdawxxxGameheheXD_jar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/boat.png" afterPath="$PROJECT_DIR$/res/boat.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/carrier.png" afterPath="$PROJECT_DIR$/res/carrier.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/civilAirport.png" afterPath="$PROJECT_DIR$/res/civilAirport.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/crossing.png" afterPath="$PROJECT_DIR$/res/crossing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/harbor.png" afterPath="$PROJECT_DIR$/res/harbor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/militaryAirport.png" afterPath="$PROJECT_DIR$/res/militaryAirport.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/militaryPlane.png" afterPath="$PROJECT_DIR$/res/militaryPlane.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/images/plane.png" afterPath="$PROJECT_DIR$/res/plane.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TopGun.iml" afterPath="$PROJECT_DIR$/TopGun.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/WorldHelper.java" afterPath="$PROJECT_DIR$/src/models/WorldHelper.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -101,8 +92,8 @@
       <file leaf-file-name="WorldHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/models/WorldHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71058476">
-              <caret line="513" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7443268">
+              <caret line="521" column="32" selection-start-line="521" selection-start-column="32" selection-end-line="521" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -953,7 +944,7 @@
       <workItem from="1452454291984" duration="300000" />
       <workItem from="1452455093762" duration="13000" />
       <workItem from="1452455167357" duration="5538000" />
-      <workItem from="1452463522291" duration="895000" />
+      <workItem from="1452463522291" duration="1135000" />
     </task>
     <task id="LOCAL-00001" summary="z Fedorki &lt;3">
       <created>1450566107233</created>
@@ -1135,11 +1126,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452454557940</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="wątki">
+      <created>1452464441756</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1452464441756</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239771000" />
+    <option name="totallyTimeSpent" value="240011000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1228,7 +1225,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HEHE" />
     <MESSAGE value="HEHEHI" />
     <MESSAGE value="blokowanie" />
     <MESSAGE value="bez zatrzymywania sie na skrzyzowaniach" />
@@ -1253,7 +1249,8 @@
     <MESSAGE value="zapisywanie" />
     <MESSAGE value="hehe" />
     <MESSAGE value="gr" />
-    <option name="LAST_COMMIT_MESSAGE" value="gr" />
+    <MESSAGE value="wątki" />
+    <option name="LAST_COMMIT_MESSAGE" value="wątki" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1629,6 +1626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.92727274">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1991,8 +1989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/WorldHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71058476">
-          <caret line="513" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7443268">
+          <caret line="521" column="32" selection-start-line="521" selection-start-column="32" selection-end-line="521" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

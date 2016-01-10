@@ -485,7 +485,7 @@ public class WorldHelper {
                 possibleBuildings.add(building);
             }
         }
-        int howMany = 8;// new Random().nextInt(possibleBuildings.size() - 3) + 3;
+        int howMany = new Random().nextInt(possibleBuildings.size() - 3) + 3;
         for (int i = 0; i < howMany; i++) {
             int which = new Random().nextInt(possibleBuildings.size());
             route.add(possibleBuildings.get(which));
@@ -542,7 +542,7 @@ public class WorldHelper {
             thread.setDaemon(true);
             thread.start();
             vehicles.add(vehicle);
-            //createPeople();
+            createPeople();
         });
         return button;
     }
@@ -645,7 +645,7 @@ public class WorldHelper {
      * adding random number of people (5,10) in random buildings
      */
     private static void createPeople() {
-        int howMany = 1;//new Random().nextInt(11) + 5;
+        int howMany = new Random().nextInt(11) + 5;
         for (int i = 0; i < howMany; i++) {
             Human human = new Human(getRandRouteForHuman());
             Thread thread = new Thread(human);
