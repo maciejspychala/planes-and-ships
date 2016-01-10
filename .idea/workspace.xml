@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="xXTXXopXXXGunawdawxxxGameheheXD:jar" />
+      <artifact name="ZZZZxXTXXopXXXGunawdawxxxGameheheXD:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="gr">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/xXTXXopXXXGunawdawxxxGameheheXD_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TopGun.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ZZZZxXTXXopXXXGunawdawxxxGameheheXD_jar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/WorldHelper.java" afterPath="$PROJECT_DIR$/src/models/WorldHelper.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,8 +93,8 @@
       <file leaf-file-name="WorldHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/models/WorldHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7443268">
-              <caret line="521" column="32" selection-start-line="521" selection-start-column="32" selection-end-line="521" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.60287446">
+              <caret line="510" column="9" selection-start-line="510" selection-start-column="9" selection-end-line="510" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -944,7 +945,7 @@
       <workItem from="1452454291984" duration="300000" />
       <workItem from="1452455093762" duration="13000" />
       <workItem from="1452455167357" duration="5538000" />
-      <workItem from="1452463522291" duration="1135000" />
+      <workItem from="1452463522291" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="z Fedorki &lt;3">
       <created>1450566107233</created>
@@ -1132,11 +1133,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452464441756</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add Humans">
+      <created>1452464680737</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1452464680737</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240011000" />
+    <option name="totallyTimeSpent" value="240197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1225,7 +1232,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HEHEHI" />
     <MESSAGE value="blokowanie" />
     <MESSAGE value="bez zatrzymywania sie na skrzyzowaniach" />
     <MESSAGE value="ludzie pierwsza proba" />
@@ -1250,7 +1256,8 @@
     <MESSAGE value="hehe" />
     <MESSAGE value="gr" />
     <MESSAGE value="wątki" />
-    <option name="LAST_COMMIT_MESSAGE" value="wątki" />
+    <MESSAGE value="add Humans" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Humans" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1989,8 +1996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/WorldHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7443268">
-          <caret line="521" column="32" selection-start-line="521" selection-start-column="32" selection-end-line="521" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.60287446">
+          <caret line="510" column="9" selection-start-line="510" selection-start-column="9" selection-end-line="510" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2003,7 +2010,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>xXTXXopXXXGunawdawxxxGameheheXD:jar</last-edited>
+          <last-edited>ZZZZxXTXXopXXXGunawdawxxxGameheheXD:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
