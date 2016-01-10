@@ -667,9 +667,9 @@ public class WorldHelper {
         hboxes.add(createHBox(boatImage, "łódź"));
         hboxes.add(createHBox(carrierImage, "lotniskowiec"));
         hboxes.add(createHBox(planeImage, "samolot pasażerski"));
-        hboxes.add(createHBox(militaryAirportImage, "samolot wojskowy"));
+        hboxes.add(createHBox(militaryPlaneImage, "samolot wojskowy"));
         hboxes.add(createHBox(civilAirportImage, "lotnisko cywilne"));
-        hboxes.add(createHBox(militaryAirportImage, "lotnisko wojskowe+"));
+        hboxes.add(createHBox(militaryAirportImage, "lotnisko wojskowe"));
         hboxes.add(createHBox(harborImage, "port"));
         hboxes.add(createHBox(crossingImage, "skrzyżowanie"));
 
