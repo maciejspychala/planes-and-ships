@@ -71,7 +71,7 @@ public class Harbour extends Building implements MakeNewVehicle, Passengers, Mak
 
     @Override
     public void movePassanger(Human human, Building building) {
-        getPeople().remove(human);
+        imLeaving(human);
         building.addHuman(human);
     }
 }

@@ -108,14 +108,14 @@ public class WorldHelper {
         boxNoRefresh.setLayoutX(640);
         boxNoRefresh.setLayoutY(20);
         boxNoRefresh.getChildren().addAll(boxNoRefreshRoute, boxNoRefreshElse);
-        pane.getChildren().addAll(boxNoRefresh, boxToRefresh);
+        pane.getChildren().addAll(boxNoRefresh, boxToRefresh, legend());
 
-        Button save = new Button("save");
-        save.setTranslateX(40);
-        save.setTranslateY(500);
-        Button load = new Button("load");
-        load.setTranslateX(40);
-        load.setTranslateY(530);
+        Button save = new Button("zapisz");
+        save.setTranslateX(150);
+        save.setTranslateY(520);
+        Button load = new Button("wczytaj");
+        load.setTranslateX(150);
+        load.setTranslateY(550);
         save.setOnAction(event -> {
             ObjectOutputStream out = null;
             try {
@@ -219,7 +219,7 @@ public class WorldHelper {
         buildings.add(new Harbour(530, 340, "Ajndholen"));
 
         buildings.add(new WaterCrossing(120, 380, "Rondo Macieja"));
-        buildings.add(new WaterCrossing(400, 290, "Rondo Andrzeja Dudy"));
+        buildings.add(new WaterCrossing(400, 290, "Rondo Zdrowotności"));
 
 
         buildings.add(new MilitaryAirport(429, 500, "Sandomierz"));
@@ -273,7 +273,6 @@ public class WorldHelper {
             vehicles.get(i).setRoute(buildings.get(i + 2), i + 2 > 8 ? buildings.get(i + 1) : buildings.get(12), i < 10 ? buildings.get(i + 3) : buildings.get(8));
         }
 
-        createPeople();
         createPeople();
 
     }
@@ -428,6 +427,14 @@ public class WorldHelper {
         return createHBox(name, Integer.toString(i));
     }
 
+
+
+    public static HBox createHBox(ImageView image, String name) {
+        HBox hBox = new HBox(8);
+        hBox.getChildren().addAll(new ImageView(image.getImage()), new Label(name));
+        return hBox;
+    }
+
     /**
      * display info boxes
      */
@@ -474,7 +481,7 @@ public class WorldHelper {
                 possibleBuildings.add(building);
             }
         }
-        int howMany = new Random().nextInt(possibleBuildings.size() - 3) + 3;
+        int howMany = 8;// new Random().nextInt(possibleBuildings.size() - 3) + 3;
         for (int i = 0; i < howMany; i++) {
             int which = new Random().nextInt(possibleBuildings.size());
             route.add(possibleBuildings.get(which));
@@ -529,7 +536,7 @@ public class WorldHelper {
             BaseVehicle vehicle = ((MakeNewVehicle) objectToDisplay).make(pane);
             new Thread(vehicle).start();
             vehicles.add(vehicle);
-            createPeople();
+            //createPeople();
         });
         return button;
     }
@@ -583,7 +590,7 @@ public class WorldHelper {
         add.setOnAction(event -> listView.getItems().add(listToChoose.get(0)));
         Button delete = new Button("-");
         delete.setOnAction(event -> listView.getItems().remove(listView.getItems().size() - 1));
-        Button save = new Button("save");
+        Button save = new Button("zapisz");
         save.setOnAction(event -> {
             ArrayList<Building> toSave = new ArrayList<Building>();
             for (Building building : listView.getItems()) {
@@ -630,7 +637,7 @@ public class WorldHelper {
      * adding random number of people (5,10) in random buildings
      */
     private static void createPeople() {
-        int howMany = new Random().nextInt(11) + 5;
+        int howMany = 1;//new Random().nextInt(11) + 5;
         for (int i = 0; i < howMany; i++) {
             Human human = new Human(getRandRouteForHuman());
             new Thread(human).start();
@@ -642,8 +649,29 @@ public class WorldHelper {
         return id.getAndIncrement();
     }
 
+    /**Return map legend
+     * @return
+     */
+    private static VBox legend() {
+        ArrayList<HBox> hboxes = new ArrayList<>();
+        hboxes.add(createHBox(boatImage, "łódź"));
+        hboxes.add(createHBox(carrierImage, "lotniskowiec"));
+        hboxes.add(createHBox(planeImage, "samolot pasażerski"));
+        hboxes.add(createHBox(militaryAirportImage, "samolot wojskowy"));
+        hboxes.add(createHBox(civilAirportImage, "lotnisko cywilne"));
+        hboxes.add(createHBox(militaryAirportImage, "lotnisko wojskowe+"));
+        hboxes.add(createHBox(harborImage, "port"));
+        hboxes.add(createHBox(crossingImage, "skrzyżowanie"));
+
+
+        VBox vbox = new VBox(8);
+        vbox.setTranslateX(10);
+        vbox.setTranslateY(370);
+        vbox.getChildren().addAll(hboxes);
+        return vbox;
+    }
+
     public enum HumanState implements Serializable {IN_PORT, FLYING}
 
     public enum VehicleState implements Serializable {IN_AIR, CROSSING, LAND, TAKE_OFF, WAIT, DELETE, TO_THE_RESCUE, ALARMA, RECOVER}
-
 }

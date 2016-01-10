@@ -315,4 +315,9 @@ public abstract class BaseVehicle implements Draw, Runnable, Display, Route, Ser
     public void setRun(boolean run) {
         this.run = run;
     }
+
+    @Override
+    public void setShouldRefreshInfoBox(boolean shouldRefreshInfoBox) {
+        shouldRefresh = shouldRefreshInfoBox;
+    }
 }

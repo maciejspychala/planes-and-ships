@@ -55,7 +55,7 @@ public class CivilAirport extends Airport implements MakeNewVehicle, Passengers 
 
     @Override
     public void movePassanger(Human human, Building building) {
-        getPeople().remove(human);
+        imLeaving(human);
         building.addHuman(human);
     }
 }

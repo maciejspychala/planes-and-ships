@@ -23,4 +23,6 @@ public interface Display {
      * @return
      */
     boolean shouldRefreshInfoBox();
+
+    void setShouldRefreshInfoBox(boolean shouldRefreshInfoBox);
 }

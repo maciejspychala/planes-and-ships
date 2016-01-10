@@ -20,10 +20,11 @@ public class Human implements Runnable, Display, Route, Serializable {
     private String surname;
     private String pesel;
     private boolean shouldRefresh = false;
+    private boolean first = false;
     private ArrayList<Building> route = new ArrayList<>();
     private ArrayList<Building> routeToBe = new ArrayList<>();
     private WorldHelper.HumanState state = WorldHelper.HumanState.IN_PORT;
-    private int delay = 8000;
+    private int delay = 5000;
     private boolean exitNow = false;
     private int tourist = new Random().nextInt(1) + 1 ;
 
@@ -56,24 +57,36 @@ public class Human implements Runnable, Display, Route, Serializable {
         while (run) {
             switch (state) {
                 case IN_PORT:
+                    if(first){
+                        try {
+                            Thread.sleep(delay*tourist);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        first = false;
+                    }
                     if (exitNow) {
                         route = routeToBe;
                         exitNow = false;
                     }
                     if (!route.get(0).getClass().isInstance(route.get(1))) {
                         ((Passengers) route.get(0)).movePassanger(this, route.get(1));
+                        shouldRefresh=true;
                         route.add(route.get(0));
                         route.remove(0);
+
                         try {
                             Thread.sleep(delay*tourist);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
+
                         shouldRefresh = true;
                     }
                     for (BaseVehicle vehicle : route.get(0).getVehicles()) {
                         if (vehicle.getRoute().contains(route.get(1))) {
                             if (jumpIn(vehicle)) {
+                                first = true;
                                 state = WorldHelper.HumanState.FLYING;
                                 route.get(0).imLeaving(this);
                                 break;
@@ -111,7 +124,7 @@ public class Human implements Runnable, Display, Route, Serializable {
     }
 
 
-    /**check if human should leave in the building, if yes - leave
+    /**check if human should leave in the building
      * @param building
      * @return
      */
@@ -119,17 +132,15 @@ public class Human implements Runnable, Display, Route, Serializable {
         if (building == route.get(1) || exitNow) {
             route.add(route.get(0));
             route.remove(0);
+
             if (exitNow) {
                 route = routeToBe;
                 exitNow = false;
+
             }
             state = WorldHelper.HumanState.IN_PORT;
+            first = true;
             shouldRefresh = true;
-            try {
-                Thread.sleep(delay*tourist);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             return true;
         } else {
             return false;
@@ -173,5 +184,10 @@ public class Human implements Runnable, Display, Route, Serializable {
 
     public void setRun(boolean run) {
         this.run = run;
+    }
+
+    @Override
+    public void setShouldRefreshInfoBox(boolean shouldRefreshInfoBox) {
+        shouldRefresh = shouldRefreshInfoBox;
     }
 }

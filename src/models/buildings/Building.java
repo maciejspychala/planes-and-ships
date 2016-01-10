@@ -144,19 +144,19 @@ public abstract class Building implements Draw, Display, Serializable {
         blocked.remove(baseVehicle);
     }
 
-    public ArrayList<Human> getPeople() {
+    public synchronized ArrayList<Human> getPeople() {
         return people;
     }
 
     /**remove human from this building
      * @param human
      */
-    public void imLeaving(Human human) {
+    public synchronized void imLeaving(Human human) {
         people.remove(human);
         shouldRefresh = true;
     }
 
-    public void addHuman(Human human) {
+    public synchronized void addHuman(Human human) {
         people.add(human);
         shouldRefresh = true;
     }
@@ -209,5 +209,10 @@ public abstract class Building implements Draw, Display, Serializable {
 
     @Override
     public void relocate() {
+    }
+
+    @Override
+    public void setShouldRefreshInfoBox(boolean shouldRefreshInfoBox) {
+        shouldRefresh =shouldRefreshInfoBox;
     }
 }
